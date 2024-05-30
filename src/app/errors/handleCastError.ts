@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 import { TErrorSources, TGenericErrorResponse } from '../interface/error';
-
+//cast errors
 const handleCastError = (
   err: mongoose.Error.CastError,
 ): TGenericErrorResponse => {
